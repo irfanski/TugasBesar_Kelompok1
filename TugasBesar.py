@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-
+import plotly.express as px
 
 # Membaca file CSV dari direktori proyek
 df = pd.read_csv("day.csv")
